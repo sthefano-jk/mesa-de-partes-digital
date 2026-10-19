@@ -9,9 +9,9 @@ fechas = []
 
 
 def registrar_documento():
-    print("\n--- Registrar documento ---")
+    print("\n--- Registrar documento ---")   # n\ sirve para dejar un linea en blanco y pasar a la siguiente
 
-    nombre = input("Nombre y apellidos: ").strip()
+    nombre = input("Nombre y apellidos: ").strip() 
     while nombre == "":
         nombre = input("El nombre es obligatorio. Nombre y apellidos: ").strip()
 
