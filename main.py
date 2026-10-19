@@ -1,7 +1,4 @@
-"""Mesa de partes digital - versión básica (avance hasta la semana 10).
-Ejecutar con: python main.py
-"""
-
+# AVANCE GRUPO 4 FUNDAMENTOS DE PROGRAMACIÓN
 # Arreglos paralelos: la posición i de cada lista describe el MISMO documento.
 codigos = []
 nombres = []
@@ -31,7 +28,7 @@ def registrar_documento():
     asunto = input("Asunto: ").strip()
     fecha = input("Fecha (DD/MM/AAAA): ").strip()
 
-    # El código es el número de orden: el primer documento es el 1, el segundo el 2...
+    # El código es el número de orden: el primer documento es el 1, el segundo el 2 y asi sucesivamente
     codigo = str(len(codigos) + 1)
 
     codigos.append(codigo)
